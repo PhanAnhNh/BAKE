@@ -1,0 +1,274 @@
+.intro{
+    width: 1000px;
+    margin: 0 auto;
+}
+.intro h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+    color: #436C7A;
+    margin-bottom: 40px;
+
+}
+/* INTRO  */
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    
+}
+
+.p-intro{
+    text-align: center;
+
+}
+
+.intro p a {
+    color: red;
+    text-decoration: underline;
+}
+/* INTRO  */
+
+/* CONTENT */
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-detail{
+    padding: 0 20px 20px 20px;
+}
+
+.content-detail h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.content-detail  p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.content-detail a {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+.content2{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin-top: 80px;
+}
+
+.banner2 {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-detail2{
+    padding: 0 20px 20px 20px;
+}
+
+.content-detail2 h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.content-detail2  p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.content-detail2 a {
+    color: #000;
+    text-decoration: underline;
+}
+/* CONTENT */
+/* YOUTUBE  */
+.youtube{
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+.youtube iframe{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+/* YOUTUBE  */
+/* IMG  */
+.image{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+
+.image .vertical{
+    width: 28%;
+    margin-bottom: 10px;
+}
+
+.vertical img{
+    width: 100%;
+    height: auto;
+}
+
+.image .horizontal{
+    width: 28%;
+    margin-bottom: 10px;
+    height: 200px;
+    align-self: center;
+
+}
+/* IMG  */
+
+/* FOOTER  */
+footer{
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+    margin-top: 3.125rem;
+}
+
+.foot_main{
+    width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.foot_item{
+    width: 25%;
+    padding: 0 20px;
+}
+
+.foot_item h3{
+    font-size: 1.3rem;
+    color: #ff0e83;
+    margin-bottom: 1rem;
+}
+
+.foot_item p{
+    font-size: 0.8rem;
+    line-height: 28px;
+    padding-bottom: 1rem;
+}
+
+.foot_socials i{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid white;
+    transition: all .5s;
+}
+.foot_socials i:hover{
+    color: #ff0e83;
+    border-color: #ff0e83;
+}
+
+.foot_time{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted  white;
+}
+
+.foot_time p{
+    padding: 0;
+    margin: 10px 0;
+}
+
+.foot_item .foot_sub input{
+    margin-bottom: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.foot_item .foot_sub input:focus{
+    outline: none;
+}
+
+.foot_item .foot_sub button{
+    padding: 7px 16px;
+    color: black;
+    border-color: #ff0e83;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.foot_item .foot_sub button:hover{
+    border-color: black;
+}
+
+.foot_copyright{
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* FOOTER  */
+
+/* Back TO TOP  */
+.BTT{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    /* visibility: hidden; */
+    /* opacity: 0; */
+}
+
+.BTT i{
+    color: #0BBBCC;
+    border: 2px solid #0BBBCC;
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+/* .cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
+  .cd-top--fade-out {
+    opacity: .5;
+  } */
